@@ -1,0 +1,14 @@
+div.name-and-adress {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+
+    h2.adress {
+        font-size: 1.2rem;
+        color: var(--green);
+    }
+}
+
+p.description {
+    font-size: 14px;
+}
