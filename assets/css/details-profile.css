@@ -1,10 +1,10 @@
 div.name-and-adress {
     width: 100%;
     display: grid;
-    gap: 1rem;
+    gap: .5rem;
 
     h2.adress {
-        font-size: 1.2rem;
+        font-size: .8rem;
         color: var(--green);
     }
 }
