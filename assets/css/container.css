@@ -8,3 +8,9 @@ main.container {
     background-color: var(--grey-800);
     text-align: center;
 }
+
+@media screen and (min-width: 300px) {
+   main.container {
+    max-width: 400px;
+   }
+}

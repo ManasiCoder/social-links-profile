@@ -9,6 +9,10 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--grey-900);
     color: var(--white);
 }

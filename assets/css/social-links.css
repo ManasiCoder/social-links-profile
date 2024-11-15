@@ -1,1 +1,26 @@
+div.container-social-links {
+ ul {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+    
+    li {
+        a {
+            display: block;
+            padding: .5rem 0;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            color: var(--white);
+            background-color: var(--grey-700);
+            border-radius: 4px;
+            transition: background-color .5s ease;
+        }
 
+        a:hover {
+            color: var(--grey-800);
+            background-color: var(--green);
+        }
+    }
+ }
+}
