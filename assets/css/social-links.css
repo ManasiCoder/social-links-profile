@@ -14,7 +14,7 @@ div.container-social-links {
             color: var(--white);
             background-color: var(--grey-700);
             border-radius: 4px;
-            transition: background-color .5s ease;
+            transition: background-color .5s ease, color .5s ease;
         }
 
         a:hover {
